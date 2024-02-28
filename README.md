@@ -4,9 +4,9 @@
 
 Welcome to our Deepfake Detection Web Dashboard – a powerful tool designed to analyze uploaded videos using a meticulously curated list of tested and verified deepfake detectors. Each detector in our arsenal utilizes distinct techniques, bringing its own strengths and weaknesses to the table. The results from these detectors are then intelligently aggregated by an ensemble model, finely tuned based on their historical performance, as observed through a meticulously prepared custom dataset.
 <div align="center">
-  <img src="https://github.com/teamStarks18/DeepfakeDetection/blob/main/images/1.jpg" alt="1" width="200"/>
-  <img src="https://github.com/teamStarks18/DeepfakeDetection/blob/main/images/2.jpg" alt="2" width="200" height="150"/>
-  <img src="https://github.com/teamStarks18/DeepfakeDetection/blob/main/images/3.jpg" alt="3" width="200"/>
+  <img src="https://github.com/teamStarks18/DeepfakeDetection/blob/main/images/1.jpg" alt="1" width="200" height="125"/>
+  <img src="https://github.com/teamStarks18/DeepfakeDetection/blob/main/images/2.jpg" alt="2" width="200" height="125"/>
+  <img src="https://github.com/teamStarks18/DeepfakeDetection/blob/main/images/3.jpg" alt="3" width="200" height="125"/>
 </div>
 
 
