@@ -1,1 +1,2 @@
-drop all the weights file into this folder
+from the drive link:
+drop all the files inside weights_models here
