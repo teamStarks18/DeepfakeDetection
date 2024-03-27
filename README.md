@@ -2,7 +2,7 @@
 
 ### Overview
 
-Welcome to our Deepfake Detection Web Dashboard – a powerful tool designed to analyze uploaded videos using a meticulously curated list of tested and verified deepfake detectors. Each detector in our arsenal utilizes distinct techniques, bringing its own strengths and weaknesses to the table. The results from these detectors are then intelligently aggregated by an ensemble model, finely tuned based on their historical performance, as observed through a meticulously prepared custom dataset.
+Welcome to our Deepfake Detection Web Dashboard – a powerful tool designed to analyze uploaded videos using a meticulously curated list of tested and verified deepfake detectors. Each detector in our arsenal utilizes distinct techniques, bringing its own strengths and weaknesses to the table. The results from these detectors are then intelligently aggregated by an aggregate model, finely tuned based on their historical performance, as observed through a meticulously prepared custom dataset.
 <div align="center">
   <img src="https://github.com/teamStarks18/DeepfakeDetection/blob/main/images/1.jpg" alt="1" width="200" height="155"/>
   <img src="https://github.com/teamStarks18/DeepfakeDetection/blob/main/images/2.jpg" alt="2" width="200" height="155"/>
@@ -22,17 +22,6 @@ Our web dashboard is designed with adaptability in mind. It seamlessly integrate
 
 Addressing the computational challenges, we employ Intel oneAPI and optimized libraries to implement parallel processing. This not only enhances the overall efficiency but also significantly reduces the time required for individual model processing.
 
-#### Detector Methods
-
-We've modularized the detector functionalities into two distinct methods:
-
-- Video Preprocessing: Converts uploaded videos into tensors for analysis.
-  
-- Inference: Applies deepfake detection algorithms to the preprocessed tensors, yielding probabilities for each video.
-
-#### Code Reusability
-
-Our approach includes a smart split within detectors, allowing for efficient code reuse. The same preprocessing can be applied to multiple detectors, optimizing the use of shared functionalities.
 
 #### Face Recognition
 
@@ -44,7 +33,7 @@ For videos containing multiple faces, we present various faces to the user, who 
 
 ### Probability Aggregation
 
-#### Ensemble Model
+#### Aggregate Model
 
 We've developed and trained an AI model to intelligently aggregate probabilities from individual detectors. This provides users with a comprehensive overview, taking into account the unique strengths and weaknesses of each detector.
 
