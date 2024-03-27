@@ -1,6 +1,6 @@
-## Deepfake Detection Web Dashboard
+# Deepfake Detection Web Dashboard
 
-### Overview
+## Overview
 
 Welcome to our Deepfake Detection Web Dashboard – a powerful tool designed to analyze uploaded videos using a meticulously curated list of tested and verified deepfake detectors. Each detector in our arsenal utilizes distinct techniques, bringing its own strengths and weaknesses to the table. The results from these detectors are then intelligently aggregated by an aggregate model, finely tuned based on their historical performance, as observed through a meticulously prepared custom dataset.
 <div align="center">
