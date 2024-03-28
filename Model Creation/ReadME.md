@@ -10,20 +10,6 @@ The following datasets were utilized in training our model:
 - [Deepfake Detection Challenge](https://www.kaggle.com/c/deepfake-detection-challenge/data)
 
 
-## Demo
-
-real
-https://github.com/teamStarks18/DeepfakeDetection/assets/161623545/09e2e2b9-31fe-4e12-b984-029363d6d7ba
-
-
-fake
-https://github.com/teamStarks18/DeepfakeDetection/assets/161623545/3dba3e36-eb07-4f17-8c57-2321e6c35283
-
-
-
-
-
-
 <!-- Dataset Icon -->
 <img src="https://github.com/teamStarks18/DeepfakeDetection/blob/main/images/dataseticon.png" alt="Dataset Icon" width="150" height="150">
 
