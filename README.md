@@ -11,8 +11,11 @@ Welcome to our Deepfake Detection Web Dashboard – a powerful tool designed to 
 
 
 
+![Screenshot from 2024-03-28 16-42-12](https://github.com/teamStarks18/DeepfakeDetection/assets/161623545/93b1f29e-45f6-48d2-876a-bb929d538b02)
+![Screenshot from 2024-03-28 16-42-58](https://github.com/teamStarks18/DeepfakeDetection/assets/161623545/d95a2b02-3efe-413f-ba72-bf04e755f9ba)
 
 ## Key Features
+
 
 - **Multiple Detectors:**
   - Incorporating various detectors, each trained on distinct datasets and employing diverse means of input processing or architectural designs, ensures the mitigation of individual model drawbacks and enhances generalizability. Additionally, this approach reduces vulnerability to adversarial attacks targeting specific detector weaknesses.
