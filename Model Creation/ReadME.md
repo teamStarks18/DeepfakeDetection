@@ -12,7 +12,7 @@ The following datasets were utilized in training our model:
 ## Sample of Preprocessed Data
 ### Real
 <video width="320" height="240" controls>
-  <source src="https://github.com/teamStarks18/DeepfakeDetection/raw/main/assets/161623545/8cd73f3b-b4a5-4548-b30d-ea5f65f4d423.mp4" type="video/mp4">
+  <source src="https://github.com/teamStarks18/DeepfakeDetection/assets/161623545/8cd73f3b-b4a5-4548-b30d-ea5f65f4d423" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
