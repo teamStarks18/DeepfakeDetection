@@ -1,13 +1,12 @@
-link to the drive containing the trained models: https://drive.google.com/drive/folders/1o4lNbL9odOtQoXiELppH3z4IUuAV30fn?usp=sharing 
-# Model Creation 
-This directory contains all the codes for the Detectors, Inference, and Training.
+# Deepfake Detection Model Creation
 
 ## Dataset
 The following datasets were utilized in training our model:
 - [FaceForensics](https://github.com/ondyari/FaceForensics)
 - [CelebDF](https://github.com/yuezunli/celeb-deepfakeforensics)
 - [Deepfake Detection Challenge](https://www.kaggle.com/c/deepfake-detection-challenge/data)
-<img src="https://github.com/teamStarks18/DeepfakeDetection/blob/main/images/dataseticon.png" alt="1" width="200" height="155" align="right"/>
+
+![Dataset](images/dataseticon.png)
 
 ## Custom Dataset
 Randomly selected an equal number of videos from all the mentioned datasets. Various augmentation techniques were implemented to increase the number of samples in the dataset.
@@ -17,11 +16,8 @@ All the programs used for data preprocessing and augmentation are located under 
 
 ## Loading the Data
 All the videos are converted into 5D vectors through the following steps:
-
 1. **PyTorch Utilities:** PyTorch utilities such as Dataset Class, DataLoader, and Transforms were employed to create the data pipeline, loading the data into memory in batches.
-
 2. **Transforms:** The transforms include filters like resizing, normalizing, and then converting into tensors.
-
 3. **Data Loader Output:** The DataLoader returns a 5D output on each iteration where the dimensions are batch size, sequence length, channel value, height, and width. Therefore, the output from the DataLoader is unpacked and fed into the model sequentially.
 
 ## Model Architecture
@@ -34,8 +30,3 @@ A batch size of 4 is utilized, with each input having a sequence length of 60, a
 
 ## Evaluation
 We have opted to use confusion matrices, training-validation curves, and accuracy as factors to evaluate the models.
-
-  
- 
-
- 
