@@ -13,8 +13,8 @@ The following datasets were utilized in training our model:
 ### Real
 https://github.com/teamStarks18/DeepfakeDetection/assets/161623545/fee63a46-8c9c-4526-ba14-4669070822a3
 
-
-https://github.com/teamStarks18/DeepfakeDetection/assets/161623545/6063a785-55b6-493c-b2d9-705bcd12b63b
+### Fake
+https://github.com/teamStarks18/DeepfakeDetection/assets/161623545/fb474cf1-5977-4ef6-8944-2cf2f151a1d4
 
 ## Custom Dataset
 Randomly selected an equal number of videos from all the mentioned datasets. Various augmentation techniques were implemented to increase the number of samples in the dataset.
