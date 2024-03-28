@@ -23,6 +23,11 @@ All the videos are converted into 5D vectors through the following steps:
 2. **Transforms:** The transforms include filters like resizing, normalizing, and then converting into tensors.
 
 3. **Data Loader Output:** The DataLoader returns a 5D output on each iteration where the dimensions are batch size, sequence length, channel value, height, and width. Therefore, the output from the DataLoader is unpacked and fed into the model sequentially.
+
+## Model Architecture
+We have experimented with various architectures such as ResNet-101, VGG16, DenseNet121, ResNet-152, DenseNet-201, and VGG19, along with their different depth variants, to observe the effect of increasing depth and architecture design in deepfake detection. Multiple models were created and trained, each employing a different architecture or dataset.
+
+The trained models are available in the [Pretrained Models](https://drive.google.com/drive/folders/1o4lNbL9odOtQoXiELppH3z4IUuAV30fn?usp=sharing) directory. The code for training and testing can be found [here](https://github.com/teamStarks18/DeepfakeDetection/blob/main/Model%20Creation/train.ipynb). Additionally, the code for inference is available [here](https://github.com/teamStarks18/DeepfakeDetection/blob/main/Model%20Creation/inference.py).
   
  
 
