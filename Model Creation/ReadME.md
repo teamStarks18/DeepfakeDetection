@@ -28,6 +28,13 @@ All the videos are converted into 5D vectors through the following steps:
 We have experimented with various architectures such as ResNet-101, VGG16, DenseNet121, ResNet-152, DenseNet-201, and VGG19, along with their different depth variants, to observe the effect of increasing depth and architecture design in deepfake detection. Multiple models were created and trained, each employing a different architecture or dataset.
 
 The trained models are available in the [Pretrained Models](https://drive.google.com/drive/folders/1o4lNbL9odOtQoXiELppH3z4IUuAV30fn?usp=sharing) directory. The code for training and testing can be found [here](https://github.com/teamStarks18/DeepfakeDetection/blob/main/Model%20Creation/train.ipynb). Additionally, the code for inference is available [here](https://github.com/teamStarks18/DeepfakeDetection/blob/main/Model%20Creation/inference.py).
+
+## Training
+A batch size of 4 is utilized, with each input having a sequence length of 60, and 20 epochs are allocated for training all the developed models.
+
+## Evaluation
+We have opted to use confusion matrices, training-validation curves, and accuracy as factors to evaluate the models.
+
   
  
 
