@@ -13,16 +13,11 @@ The following datasets were utilized in training our model:
 ## Demo
 
 ### Video 1
-<video width="320" height="240" controls>
-  <source src="https://github.com/teamStarks18/DeepfakeDetection/blob/main/images/id0_0000.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+[![Video 1](https://img.youtube.com/vi/VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=VIDEO_ID_HERE)
 
 ### Video 2
-<video width="320" height="240" controls>
-  <source src="https://github.com/teamStarks18/DeepfakeDetection/blob/main/images/id0_id1_0005.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+[![Video 2](https://img.youtube.com/vi/VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=VIDEO_ID_HERE)
+
 
 
 <!-- Dataset Icon -->
