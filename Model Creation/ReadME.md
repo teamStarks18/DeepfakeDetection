@@ -10,7 +10,7 @@ The following datasets were utilized in training our model:
 - [Deepfake Detection Challenge](https://www.kaggle.com/c/deepfake-detection-challenge/data)
 
 <!-- Dataset Icon -->
-<img src="(https://github.com/teamStarks18/DeepfakeDetection/blob/main/images/dataseticon.png)" alt="Dataset Icon" width="150" height="150">
+<img src="https://github.com/teamStarks18/DeepfakeDetection/blob/main/images/dataseticon.png" alt="Dataset Icon" width="150" height="150">
 
 ## Custom Dataset
 Randomly selected an equal number of videos from all the mentioned datasets. Various augmentation techniques were implemented to increase the number of samples in the dataset.
