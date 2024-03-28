@@ -12,11 +12,15 @@ The following datasets were utilized in training our model:
 
 ## Demo
 
-### Video 1
-[![Video 1](https://img.youtube.com/vi/VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=VIDEO_ID_HERE)
+real
+https://github.com/teamStarks18/DeepfakeDetection/assets/161623545/09e2e2b9-31fe-4e12-b984-029363d6d7ba
 
-### Video 2
-[![Video 2](https://img.youtube.com/vi/VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=VIDEO_ID_HERE)
+
+fake
+https://github.com/teamStarks18/DeepfakeDetection/assets/161623545/3dba3e36-eb07-4f17-8c57-2321e6c35283
+
+
+
 
 
 
