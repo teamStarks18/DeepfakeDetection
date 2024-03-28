@@ -14,6 +14,15 @@ Randomly selected an equal number of videos from all the mentioned datasets. Var
 
 ## Preprocessing
 All the programs used for data preprocessing and augmentation are located under the [Preprocessing Dataset](https://github.com/teamStarks18/DeepfakeDetection/tree/main/Model%20Creation/preprocessing_dataset) directory. The approach involved extracting all frames from the video, using Mediapipe to detect faces in each frame, adding required padding to the region of interest to gather more information from around the face and the face itself while ignoring the rest of the video. These cropped images are then combined to form the preprocessed video. Techniques such as horizontal flipping were used to increase the number of inputs.
+
+## Loading the Data
+All the videos are converted into 5D vectors through the following steps:
+
+1. **PyTorch Utilities:** PyTorch utilities such as Dataset Class, DataLoader, and Transforms were employed to create the data pipeline, loading the data into memory in batches.
+
+2. **Transforms:** The transforms include filters like resizing, normalizing, and then converting into tensors.
+
+3. **Data Loader Output:** The DataLoader returns a 5D output on each iteration where the dimensions are batch size, sequence length, channel value, height, and width. Therefore, the output from the DataLoader is unpacked and fed into the model sequentially.
   
  
 
