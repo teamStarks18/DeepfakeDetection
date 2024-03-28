@@ -43,3 +43,4 @@ Welcome to our Deepfake Detection Web Dashboard – a powerful tool designed to 
 
 
 ## Training and Testing
+More about this has been discussed [here](https://github.com/teamStarks18/DeepfakeDetection/blob/main/Model%20Creation/ReadME.md)
