@@ -11,14 +11,9 @@ The following datasets were utilized in training our model:
 
 ## Sample of Preprocessed Data
 ### Real
-<video width="320" height="240" controls>
-  <source src="https://github.com/teamStarks18/DeepfakeDetection/assets/161623545/8cd73f3b-b4a5-4548-b30d-ea5f65f4d423" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+https://github.com/teamStarks18/DeepfakeDetection/assets/161623545/fee63a46-8c9c-4526-ba14-4669070822a3
 
 
-<!-- Dataset Icon -->
-<img src="https://github.com/teamStarks18/DeepfakeDetection/blob/main/images/dataseticon.png" alt="Dataset Icon" width="150" height="150">
 
 ## Custom Dataset
 Randomly selected an equal number of videos from all the mentioned datasets. Various augmentation techniques were implemented to increase the number of samples in the dataset.
