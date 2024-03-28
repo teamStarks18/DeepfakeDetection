@@ -9,6 +9,22 @@ The following datasets were utilized in training our model:
 - [CelebDF](https://github.com/yuezunli/celeb-deepfakeforensics)
 - [Deepfake Detection Challenge](https://www.kaggle.com/c/deepfake-detection-challenge/data)
 
+
+## Demo
+
+### Video 1
+<video width="320" height="240" controls>
+  <source src="https://github.com/teamStarks18/DeepfakeDetection/blob/main/images/id0_0000.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+### Video 2
+<video width="320" height="240" controls>
+  <source src="https://github.com/teamStarks18/DeepfakeDetection/blob/main/images/id0_id1_0005.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+
 <!-- Dataset Icon -->
 <img src="https://github.com/teamStarks18/DeepfakeDetection/blob/main/images/dataseticon.png" alt="Dataset Icon" width="150" height="150">
 
