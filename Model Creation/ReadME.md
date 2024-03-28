@@ -9,7 +9,6 @@ The following datasets were utilized in training our model:
 - [CelebDF](https://github.com/yuezunli/celeb-deepfakeforensics)
 - [Deepfake Detection Challenge](https://www.kaggle.com/c/deepfake-detection-challenge/data)
 
-https://github.com/teamStarks18/DeepfakeDetection/assets/161623545/09cc29ad-61a3-420f-881e-2518182afb5b
 
 <!-- Dataset Icon -->
 <img src="https://github.com/teamStarks18/DeepfakeDetection/blob/main/images/dataseticon.png" alt="Dataset Icon" width="150" height="150">
