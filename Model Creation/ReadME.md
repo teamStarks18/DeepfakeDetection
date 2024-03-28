@@ -6,7 +6,7 @@ The following datasets were utilized in training our model:
 - [CelebDF](https://github.com/yuezunli/celeb-deepfakeforensics)
 - [Deepfake Detection Challenge](https://www.kaggle.com/c/deepfake-detection-challenge/data)
 
-![Dataset](images/dataseticon.png)
+![Dataset](https://github.com/teamStarks18/DeepfakeDetection/blob/main/images/dataseticon.png)
 
 ## Custom Dataset
 Randomly selected an equal number of videos from all the mentioned datasets. Various augmentation techniques were implemented to increase the number of samples in the dataset.
