@@ -49,7 +49,7 @@ More about this has been discussed [here](https://github.com/teamStarks18/Deepfa
 
 
 
-## Training and Testing
+## Creating the AI model
 More about this has been discussed [here](https://github.com/teamStarks18/DeepfakeDetection/blob/main/Model%20Creation/ReadME.md)
 
 ## Demo
