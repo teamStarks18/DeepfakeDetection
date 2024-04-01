@@ -52,6 +52,10 @@ More about this has been discussed [here](https://github.com/teamStarks18/Deepfa
 ## Training and Testing
 More about this has been discussed [here](https://github.com/teamStarks18/DeepfakeDetection/blob/main/Model%20Creation/ReadME.md)
 
+## Demo
+This is the demo of website
+https://github.com/teamStarks18/DeepfakeDetection/assets/161623545/05bdc2e5-4061-44fa-ac50-efaa2a2c9390
+
 ## Future Scopes
 
 - **Multi-Face Handling:**
