@@ -36,6 +36,8 @@ Welcome to our Deepfake Detection Web Dashboard – a powerful tool designed to 
 - **Human-in-the-Loop System:**
   - Facilitates expert analysis of stored video inputs and outputs, fostering continuous model performance enhancement, ongoing model maintenance through real-world data analysis and refinement, and efficient generation of historical performance data for new models by leveraging the models to predict outputs from a custom dataset.
 
+## Devolopment Tools
+Leveraging optimized versions of PyTorch from Intel, in conjunction with the Intel Developer Cloud, significantly accelerated our training process. This enabled us to efficiently train multiple models on a sufficiently large dataset and successfully complete the project within the specified deadline.
 
 ## Data Flow
 
