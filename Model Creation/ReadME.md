@@ -27,7 +27,7 @@ Additionally, augmentation techniques like horizontal flipping were applied to t
 
 
 ## Preprocessing
-All the programs used for data preprocessing and augmentation are located under the [Preprocessing Dataset](https://github.com/teamStarks18/DeepfakeDetection/tree/main/Model%20Creation/preprocessing_dataset) directory. The approach involved extracting all frames from the video, using Mediapipe to detect faces in each frame, adding required padding to the region of interest to gather more information from around the face and the face itself while ignoring the rest of the video. These cropped images are then combined to form the preprocessed video. This helps to grealty reduce the size of the dataset.
+All the programs used for data preprocessing and augmentation are located under the [Preprocessing Dataset](https://github.com/teamStarks18/DeepfakeDetection/blob/main/Model%20Creation/preprocessData.ipynb). The approach involved extracting all frames from the video, using Mediapipe to detect faces in each frame, adding required padding to the region of interest to gather more information from around the face and the face itself while ignoring the rest of the video. These cropped images are then combined to form the preprocessed video. This helps to grealty reduce the size of the dataset.
 
 ## Sample of Preprocessed Data
 
