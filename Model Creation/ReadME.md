@@ -100,12 +100,59 @@ The accuracies obtained were:
 
 ## Training Validation Curves And Confusion Matrix
 
+## Training Validation Curves And Confusion Matrix
+
 ### DenseNet121:
 <div style="display: flex; justify-content: center;">
     <img src="https://github.com/teamStarks18/DeepfakeDetection/assets/161623545/e60b588f-c3bd-46b5-89e7-02e1f8cc89fa" alt="Accuracy" style="width: 30%; margin: 0 5px;">
     <img src="https://github.com/teamStarks18/DeepfakeDetection/assets/161623545/51b2596f-5a17-4f26-a759-1abc371ec9c6" alt="Loss" style="width: 30%; margin: 0 5px;">
     <img src="https://github.com/teamStarks18/DeepfakeDetection/assets/161623545/eedad236-18ad-43e5-b7f9-adb55c26add2" alt="Confusion Matrix" style="width: 30%; margin: 0 5px;">
 </div>
+
+### EfficientNet_B0:
+<div style="display: flex; justify-content: center;">
+    <img src="https://github.com/teamStarks18/DeepfakeDetection/assets/161623545/96e24ec0-7706-4aea-bdce-c3e209b0dddb" alt="Accuracy" style="width: 30%; margin: 0 5px;">
+    <img src="https://github.com/teamStarks18/DeepfakeDetection/assets/161623545/03be4ad9-0f9d-442b-8a50-316accac3ef2" alt="Loss" style="width: 30%; margin: 0 5px;">
+    <img src="https://github.com/teamStarks18/DeepfakeDetection/assets/161623545/77687880-0688-4ea0-9674-005d17f7ee1a" alt="Confusion Matrix" style="width: 30%; margin: 0 5px;">
+</div>
+
+### EfficientNet_B3:
+<div style="display: flex; justify-content: center;">
+    <img src="https://github.com/teamStarks18/DeepfakeDetection/assets/161623545/9ed48b0d-6c8e-4690-886a-f68d910039dc" alt="Accuracy" style="width: 30%; margin: 0 5px;">
+    <img src="https://github.com/teamStarks18/DeepfakeDetection/assets/161623545/c3d639bd-79d8-42e7-99d7-3a38640957ef" alt="Loss" style="width: 30%; margin: 0 5px;">
+    <img src="https://github.com/teamStarks18/DeepfakeDetection/assets/161623545/a4c49a41-5483-480a-a105-cb83dcaf4ec8" alt="Confusion Matrix" style="width: 30%; margin: 0 5px;">
+</div>
+
+### ResNet101:
+<div style="display: flex; justify-content: center;">
+    <img src="https://github.com/teamStarks18/DeepfakeDetection/assets/161623545/a033cb74-3996-4fa0-8da1-17e20001ecd9" alt="Accuracy" style="width: 30%; margin: 0 5px;">
+    <img src="https://github.com/teamStarks18/DeepfakeDetection/assets/161623545/c912ea2d-0756-4cc4-aadb-1024a2595bc0" alt="Loss" style="width: 30%; margin: 0 5px;">
+    <img src="https://github.com/teamStarks18/DeepfakeDetection/assets/161623545/872c679b-499d-4f55-8f3e-417c17fc23cb" alt="Confusion Matrix" style="width: 30%; margin: 0 5px;">
+</div>
+
+### ResNext50_32x4d:
+<div style="display: flex; justify-content: center;">
+    <img src="https://github.com/teamStarks18/DeepfakeDetection/assets/161623545/340aa219-e246-4dc9-aed3-034a67991ccf" alt="Accuracy" style="width: 30%; margin: 0 5px;">
+    <img src="https://github.com/teamStarks18/DeepfakeDetection/assets/161623545/0913a51a-d95c-449d-99a5-db6fcf574a66" alt="Loss" style="width: 30%; margin: 0 5px;">
+    <img src="https://github.com/teamStarks18/DeepfakeDetection/assets/161623545/f051d9b9-1e6f-4642-9b6f-e669ec65d81f" alt="Confusion Matrix" style="width: 30%; margin: 0 5px;">
+</div>
+
+### VGG16:
+<div style="display: flex; justify-content: center;">
+    <img src="https://github.com/teamStarks18/DeepfakeDetection/assets/161623545/58a32cdc-2532-42dc-8296-0dff2d07ea97" alt="Accuracy" style="width: 30%; margin: 0 5px;">
+    <img src="https://github.com/teamStarks18/DeepfakeDetection/assets/161623545/fe6102d1-139b-4a9e-a364-268af6ec23d7" alt="Loss" style="width: 30%; margin: 0 5px;">
+    <img src="https://github.com/teamStarks18/DeepfakeDetection/assets/161623545/b42c4e78-2bc2-44e6-a265-f4e8c5ee260b" alt="Confusion Matrix" style="width: 30%; margin: 0 5px;">
+</div>
+
+### VGG19:
+<div style="display: flex; justify-content: center;">
+    <img src="https://github.com/teamStarks18/DeepfakeDetection/assets/161623545/a5b07571-9552-441d-a9b2-4e789f05bd97" alt="Accuracy" style="width: 30%; margin: 0 5px;">
+    <img src="https://github.com/teamStarks18/DeepfakeDetection/assets/161623545/94e395b2-813b-430d-b81e-d60120032cb0" alt="Loss" style="width: 30%; margin: 0 5px;">
+    <img src="https://github.com/teamStarks18/DeepfakeDetection/assets/161623545/e296bbed-7aaf-4149-84eb-e1cd7db0d57e" alt="Confusion Matrix" style="width: 30%; margin: 0 5px;">
+</div>
+
+
+
 
 
 
