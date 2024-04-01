@@ -149,7 +149,7 @@ The accuracies obtained were:
     <img src="https://github.com/teamStarks18/DeepfakeDetection/assets/161623545/e296bbed-7aaf-4149-84eb-e1cd7db0d57e" alt="Confusion Matrix" style="width: 30%; margin: 0 5px;">
 </div>
 
-
+more details: https://drive.google.com/drive/folders/19MBmwnxc10A2gCV7hbOlgofEa_chYRYB?usp=sharing 
 
 
 ## Aggregate Model
@@ -158,6 +158,7 @@ The aggregator's role is to combine the individual probabilities from all detect
 
 To achieve this, a classical neural network architecture with fully connected layers was developed. This neural network was trained using the historical performance data of all models on the custom datasets they were trained on. By training on this data, the model learns to assign importance to models that perform well relative to others. This approach facilitates the creation of an effective aggregator that optimally combines the outputs of individual detectors, ultimately improving the overall detection performance.
 
+aggregate model download: https://drive.google.com/file/d/1IJhXWBDfN6ZhbjllubZLRsxjJetyNJxk/view?usp=drive_link
 
 ## Aggregator Performance
 
