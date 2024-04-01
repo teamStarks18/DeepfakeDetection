@@ -4,10 +4,30 @@
 
 <!-- Dataset Section -->
 ## Dataset
-The following datasets were utilized in training our model:
+The open source dataset used in the project can be downloaded from here:
 - [FaceForensics](https://github.com/ondyari/FaceForensics)
 - [CelebDF](https://github.com/yuezunli/celeb-deepfakeforensics)
 - [Deepfake Detection Challenge](https://www.kaggle.com/c/deepfake-detection-challenge/data)
+
+
+## Custom Dataset
+We opted for CelebDF and FF++ datasets to construct our custom dataset due to their balanced nature, larger quantity of videos, and higher quality deepfakes.
+
+A 50-50 split was executed on CelebDF and FF++ datasets, resulting in a collection of 3,780 videos for each label (Real and Fake), totaling 7,560 videos. An 80-20 train-test split was then applied to this dataset. During training, a batch size of 4 and 20 epochs were utilized for the detectors.
+
+- Fake
+    - CelebDF -  1890 
+    - FF++ - 
+        - Deepfakes - 630 
+        - Face 2 Face - 630
+        - FaceSwap - 630
+For the "Fake" category, 1,890 videos were sourced from CelebDF, while from FF++, 630 videos each were taken from Deepfakes, Face2Face, and FaceSwap categories. Regarding the "Real" category, all genuine videos from both datasets were used, excluding those featuring multiple individuals. The number of fake videos was adjusted to match the available real videos.
+
+Additionally, augmentation techniques like horizontal flipping were applied to the real videos to expand the available video pool.
+
+
+## Preprocessing
+All the programs used for data preprocessing and augmentation are located under the [Preprocessing Dataset](https://github.com/teamStarks18/DeepfakeDetection/tree/main/Model%20Creation/preprocessing_dataset) directory. The approach involved extracting all frames from the video, using Mediapipe to detect faces in each frame, adding required padding to the region of interest to gather more information from around the face and the face itself while ignoring the rest of the video. These cropped images are then combined to form the preprocessed video. This helps to grealty reduce the size of the dataset.
 
 ## Sample of Preprocessed Data
 
@@ -20,11 +40,9 @@ The following datasets were utilized in training our model:
 
 
 
-## Custom Dataset
-Randomly selected an equal number of videos from all the mentioned datasets. Various augmentation techniques were implemented to increase the number of samples in the dataset.
 
-## Preprocessing
-All the programs used for data preprocessing and augmentation are located under the [Preprocessing Dataset](https://github.com/teamStarks18/DeepfakeDetection/tree/main/Model%20Creation/preprocessing_dataset) directory. The approach involved extracting all frames from the video, using Mediapipe to detect faces in each frame, adding required padding to the region of interest to gather more information from around the face and the face itself while ignoring the rest of the video. These cropped images are then combined to form the preprocessed video. Techniques such as horizontal flipping were used to increase the number of inputs.
+
+
 
 <!-- Loading Data Section -->
 ## Loading the Data
@@ -35,15 +53,57 @@ All the videos are converted into 5D vectors through the following steps:
 
 <!-- Model Architecture Section -->
 ## Model Architecture
-We have experimented with various architectures such as ResNet-101, VGG16, DenseNet121, ResNet-152, DenseNet-201, and VGG19, along with their different depth variants, to observe the effect of increasing depth and architecture design in deepfake detection. Multiple models were created and trained, each employing a different architecture or dataset.
+We utilized various pretrained architectures for feature extraction in each detector, including:
+
+- DenseNet121
+- EfficientNet_B0
+- EfficientNet_B3
+- ResNet101
+- ResNext50_32x4d
+- VGG16
+- VGG19. 
+Each architecture incorporates an LSTM layer to capture sequential data. These models were trained on different input dimensions and sequence lengths, taking into account computational resources and accuracy requirements.
+
+Utilizing a variety of pretrained architectures in a single detector offers significant advantages. Firstly, it enables diversity in feature representation. Each architecture is adept at capturing distinct aspects of the input data, thereby generating a diverse set of features. 
+
+Secondly, employing multiple architectures enhances the detector's robustness to model biases. Different architectures may exhibit biases towards specific types of features or patterns. By leveraging a range of architectures, the detector becomes more resilient to these biases. This heightened resilience enhances the detector's ability to generalize effectively across diverse data distributions, thereby bolstering its overall performance and reliability.
+
+While employing various architectures is beneficial, training on a diverse dataset with high-quality deepfakes remains pivotal for enhancing the detector's generalizability.
+
 
 <!-- Pretrained Models and Code Links -->
 The trained models are available in the [Pretrained Models](https://drive.google.com/drive/folders/1o4lNbL9odOtQoXiELppH3z4IUuAV30fn?usp=sharing) directory. The code for training and testing can be found [here](https://github.com/teamStarks18/DeepfakeDetection/blob/main/Model%20Creation/train.ipynb). Additionally, the code for inference is available [here](https://github.com/teamStarks18/DeepfakeDetection/blob/main/Model%20Creation/inference.py).
 
 <!-- Training Section -->
 ## Training
-A batch size of 4 is utilized, with each input having a sequence length of 60, and 20 epochs are allocated for training all the developed models.
+A batch size of 4 is utilized, with each input having varying sequence length for each detector and 20 epochs are used for training all the developed models.
 
 <!-- Evaluation Section -->
 ## Evaluation
 We have opted to use confusion matrices, training-validation curves, and accuracy as factors to evaluate the models.
+
+The accuracies obtained were:
+
+| Model            | Accuracy |
+|------------------|----------|
+| DenseNet121      | 91       |
+| EfficientNet_B0  | 89       |
+| EfficientNet_B3  | 81       |
+| ResNet101        | 88       |
+| ResNext50_32x4d  | 92       |
+| VGG16            | 86       |
+| VGG19            | 87       |
+
+
+
+
+
+## Training Validation Curves And Confusion Matrix
+
+- DenseNet121:
+![acc](https://github.com/teamStarks18/DeepfakeDetection/assets/161623545/e60b588f-c3bd-46b5-89e7-02e1f8cc89fa)
+![los](https://github.com/teamStarks18/DeepfakeDetection/assets/161623545/51b2596f-5a17-4f26-a759-1abc371ec9c6)
+![conf](https://github.com/teamStarks18/DeepfakeDetection/assets/161623545/eedad236-18ad-43e5-b7f9-adb55c26add2)
+
+
+
