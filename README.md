@@ -11,6 +11,19 @@ Welcome to our Deepfake Detection Web Dashboard – a powerful tool designed to 
   <img src="https://github.com/teamStarks18/DeepfakeDetection/blob/main/images/3.jpg" alt="3" width="200" height="155"/>
 </div>
 
+## Problem Statement
+In the fast-evolving tech landscape, the widespread use of deepfakes, driven by advanced artificial intelligence, raises serious concerns for global information reliability 
+and democratic processes. This multifaceted challenge 
+includes a growing disinformation crisis, political 
+manipulation threats, privacy violations, security risks, 
+legal ambiguities, and difficulties in content verification. 
+Our team urgently focuses on developing advanced 
+detection mechanisms to counter deepfakes, preserving 
+information integrity, safeguarding democracy, and 
+restoring trust in our digital world. Immediate action is 
+crucial to shield individuals, nations, and democratic 
+processes from the escalating risks posed by deepfakes.
+
 
 
 
