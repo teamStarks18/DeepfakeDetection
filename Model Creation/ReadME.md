@@ -13,6 +13,9 @@ The following datasets were utilized in training our model:
 
 ![video20-ezgif com-video-to-gif-converter](https://github.com/teamStarks18/DeepfakeDetection/assets/161623545/d1028181-8d03-4046-9168-6ad7d6435731)
 ![video50-ezgif com-video-to-gif-converter](https://github.com/teamStarks18/DeepfakeDetection/assets/161623545/59225353-d4f3-4dc4-a777-1e490497525e)
+![video250-ezgif com-video-to-gif-converter](https://github.com/teamStarks18/DeepfakeDetection/assets/161623545/a440b2c3-65bd-49d6-956f-744ff712f522)
+![video45-ezgif com-video-to-gif-converter](https://github.com/teamStarks18/DeepfakeDetection/assets/161623545/830f6a32-ebb3-4ce5-94b1-1dcbaefa81ce)
+
 
 
 ## Custom Dataset
