@@ -100,10 +100,12 @@ The accuracies obtained were:
 
 ## Training Validation Curves And Confusion Matrix
 
-- DenseNet121:
-![acc](https://github.com/teamStarks18/DeepfakeDetection/assets/161623545/e60b588f-c3bd-46b5-89e7-02e1f8cc89fa)
-![los](https://github.com/teamStarks18/DeepfakeDetection/assets/161623545/51b2596f-5a17-4f26-a759-1abc371ec9c6)
-![conf](https://github.com/teamStarks18/DeepfakeDetection/assets/161623545/eedad236-18ad-43e5-b7f9-adb55c26add2)
+### DenseNet121:
+<div style="display: flex; justify-content: center;">
+    <img src="https://github.com/teamStarks18/DeepfakeDetection/assets/161623545/e60b588f-c3bd-46b5-89e7-02e1f8cc89fa" alt="Accuracy" style="width: 30%; margin: 0 5px;">
+    <img src="https://github.com/teamStarks18/DeepfakeDetection/assets/161623545/51b2596f-5a17-4f26-a759-1abc371ec9c6" alt="Loss" style="width: 30%; margin: 0 5px;">
+    <img src="https://github.com/teamStarks18/DeepfakeDetection/assets/161623545/eedad236-18ad-43e5-b7f9-adb55c26add2" alt="Confusion Matrix" style="width: 30%; margin: 0 5px;">
+</div>
 
 
 
