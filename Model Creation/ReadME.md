@@ -11,10 +11,9 @@ The following datasets were utilized in training our model:
 
 ## Sample of Preprocessed Data
 
-![celebfake_id26_id30_0002](https://github.com/teamStarks18/DeepfakeDetection/assets/161623545/86645ac7-668b-45ef-9600-9dbaf4e8405e)
+![video20-ezgif com-video-to-gif-converter](https://github.com/teamStarks18/DeepfakeDetection/assets/161623545/d1028181-8d03-4046-9168-6ad7d6435731)
+![video50-ezgif com-video-to-gif-converter](https://github.com/teamStarks18/DeepfakeDetection/assets/161623545/59225353-d4f3-4dc4-a777-1e490497525e)
 
-### Fake
-https://github.com/teamStarks18/DeepfakeDetection/assets/161623545/fb474cf1-5977-4ef6-8944-2cf2f151a1d4
 
 ## Custom Dataset
 Randomly selected an equal number of videos from all the mentioned datasets. Various augmentation techniques were implemented to increase the number of samples in the dataset.
