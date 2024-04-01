@@ -61,7 +61,8 @@ We utilized various pretrained architectures for feature extraction in each dete
 - ResNet101
 - ResNext50_32x4d
 - VGG16
-- VGG19. 
+- VGG19
+
 Each architecture incorporates an LSTM layer to capture sequential data. These models were trained on different input dimensions and sequence lengths, taking into account computational resources and accuracy requirements.
 
 Utilizing a variety of pretrained architectures in a single detector offers significant advantages. Firstly, it enables diversity in feature representation. Each architecture is adept at capturing distinct aspects of the input data, thereby generating a diverse set of features. 
