@@ -49,8 +49,8 @@ processes from the escalating risks posed by deepfakes.
 - **Human-in-the-Loop System:**
   - Facilitates expert analysis of stored video inputs and outputs, fostering continuous model performance enhancement, ongoing model maintenance through real-world data analysis and refinement, and efficient generation of historical performance data for new models by leveraging the models to predict outputs from a custom dataset.
 
-## Devolopment Tools
-Leveraging optimized versions of PyTorch from Intel, in conjunction with the Intel Developer Cloud, significantly accelerated our training process. This enabled us to efficiently train multiple models on a sufficiently large dataset and successfully complete the project within the specified deadline.
+## Intel AI analytics toolkit in Data preprocessing
+In our deepfake detector project, the utilization of Intel AI Analytics Toolkit, particularly Intel-optimized Pandas and NumPy, significantly bolstered our data preprocessing phase. These optimized tools enabled efficient vectorization of operations, allowing us to process large datasets swiftly. By harnessing Intel's optimizations tailored for their architectures, we expedited data cleaning, manipulation, and feature engineering tasks. As a result, we successfully streamlined our preprocessing pipeline, ensuring timely completion of the project while maintaining high performance and accuracy.
 
 ## Data Flow
 
