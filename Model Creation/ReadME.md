@@ -10,8 +10,8 @@ The following datasets were utilized in training our model:
 - [Deepfake Detection Challenge](https://www.kaggle.com/c/deepfake-detection-challenge/data)
 
 ## Sample of Preprocessed Data
-### Real
-https://github.com/teamStarks18/DeepfakeDetection/assets/161623545/fee63a46-8c9c-4526-ba14-4669070822a3
+
+![celebfake_id26_id30_0002](https://github.com/teamStarks18/DeepfakeDetection/assets/161623545/86645ac7-668b-45ef-9600-9dbaf4e8405e)
 
 ### Fake
 https://github.com/teamStarks18/DeepfakeDetection/assets/161623545/fb474cf1-5977-4ef6-8944-2cf2f151a1d4
