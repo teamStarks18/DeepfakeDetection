@@ -37,7 +37,8 @@ Welcome to our Deepfake Detection Web Dashboard – a powerful tool designed to 
 
 ## Data Flow
 
-![newMain](https://github.com/teamStarks18/DeepfakeDetection/assets/161623545/c0e41252-94e3-487e-add1-b12050039cb8)
+![hi1 drawio](https://github.com/teamStarks18/DeepfakeDetection/assets/161623545/972c2124-dda6-4494-a846-892c695d06f7)
+
 
 
 ## How to Run
