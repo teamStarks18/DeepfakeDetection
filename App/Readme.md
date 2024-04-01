@@ -6,7 +6,8 @@ This part explain about the functionalty of the website along with how to run th
 
 Currently, the website employs an older version of our software, in which the various detectors are slightly altered versions of the same architecture (ResNext with LSTM). They are trained on different subsets of data and have different sequence lengths as input to the models. We have experimented with different model architectures, utilized better preprocessing techniques, and developed a custom dataset prepared by us to improve the models' performance. All the resources for this are shared in the resource creation directory. In the final stages of our project, we aim to integrate our best detectors into our website.
 
-
+![Screenshot from 2024-03-28 16-42-12](https://github.com/teamStarks18/DeepfakeDetection/assets/161623545/93b1f29e-45f6-48d2-876a-bb929d538b02)
+![Screenshot from 2024-03-28 16-42-58](https://github.com/teamStarks18/DeepfakeDetection/assets/161623545/d95a2b02-3efe-413f-ba72-bf04e755f9ba)
 ## Tech Stack
 
 - FrontEnd - React
