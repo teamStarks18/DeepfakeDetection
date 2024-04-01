@@ -52,7 +52,7 @@ processes from the escalating risks posed by deepfakes.
 ## Intel AI analytics toolkit in Data preprocessing
 In our deepfake detector project, the utilization of Intel AI Analytics Toolkit, particularly Intel-optimized Pandas and NumPy, significantly bolstered our data preprocessing phase. These optimized tools enabled efficient vectorization of operations, allowing us to process large datasets swiftly. By harnessing Intel's optimizations tailored for their architectures, we expedited data cleaning, manipulation, and feature engineering tasks. As a result, we successfully streamlined our preprocessing pipeline, ensuring timely completion of the project while maintaining high performance and accuracy.
 
-## Intel AI analytics toolkit in Data preprocessing
+## Intel AI analytics toolkit in Model Training
 Leveraging optimized versions of PyTorch from Intel, in conjunction with the Intel Developer Cloud, significantly accelerated our training process. This enabled us to efficiently train multiple models on a sufficiently large dataset and successfully complete the project within the specified deadline.
 
 ## Data Flow
