@@ -2,7 +2,9 @@
 
 ## Overview
 
-Welcome to our Deepfake Detection Web Dashboard – a powerful tool designed to analyze uploaded videos using a meticulously curated list of tested and verified deepfake detectors. Each detector in our arsenal utilizes distinct techniques, bringing its own strengths and weaknesses to the table. The results from these detectors are then intelligently aggregated by an aggregate model, finely tuned based on their historical performance, as observed through a meticulously prepared custom dataset.
+Welcome to our Deepfake Detection Web Dashboard – a powerful tool designed to analyze uploaded videos using a list of tested and verified deepfake detectors. Each detector utilizes distinct techniques, having its own strengths and weaknesses. The results from these detectors are then intelligently aggregated by an aggregate model, which gives adequate weights to each model. The aggregator is finely tuned based on their historical performance of these detectors, as observed through a custom prepared dataset.
+
+
 <div align="center">
   <img src="https://github.com/teamStarks18/DeepfakeDetection/blob/main/images/1.jpg" alt="1" width="200" height="155"/>
   <img src="https://github.com/teamStarks18/DeepfakeDetection/blob/main/images/2.jpg" alt="2" width="200" height="155"/>
@@ -22,11 +24,11 @@ Welcome to our Deepfake Detection Web Dashboard – a powerful tool designed to 
 - **Scalability and Future-Proofing:**
   - Named "Infinite Ensemble," our system seamlessly integrates an indefinite number of detectors, with the aggregator adaptable to accommodate them. Given the dynamic nature of deepfake detection research, with newer, more proficient detectors emerging regularly, our system serves as a robust platform for testing and validating evolving detector technologies.
 
+- **API for Everyone:**
+  -  Once hosted, anyone can use our API seamlessly and they can be easily employed in their applications allowing everyone to use these detectors.
+
 - **Parallel Processing:**
   - Addressing concerns regarding computational overhead during the system's conceptualization, we implement efficient face cropping libraries like Mediapipe and leverage parallel processing techniques. This ensures simultaneous processing of videos by multiple models, optimizing computational efficiency.
-
-- **Multi-Face Handling:**
-  - In the final development stages, we aim to incorporate the capability to handle videos with multiple faces. Although this may marginally increase computational time, it enhances the software's adaptability to diverse input scenarios.
 
 - **Aggregate Model:**
   - We have devised an aggregate model trained on individual model performances using a custom dataset. This model effectively consolidates results from all detectors, considering their respective accuracies and resolving conflicting outputs.
@@ -37,14 +39,27 @@ Welcome to our Deepfake Detection Web Dashboard – a powerful tool designed to 
 
 ## Data Flow
 
-
 ![hi1 drawio](https://github.com/teamStarks18/DeepfakeDetection/assets/161623545/b714aadc-d592-4f9b-bc67-d294357912ea)
 
 
 
-## How to Run
+
+## Usage
+More about this has been discussed [here](https://github.com/teamStarks18/DeepfakeDetection/blob/main/App/Readme.md)
 
 
 
 ## Training and Testing
 More about this has been discussed [here](https://github.com/teamStarks18/DeepfakeDetection/blob/main/Model%20Creation/ReadME.md)
+
+## Future Scopes
+
+- **Multi-Face Handling:**
+  - In the final development stages, we aim to incorporate the capability to handle videos with multiple faces. Although this may marginally increase computational time, it enhances the software's adaptability to diverse input scenarios.
+
+- **Improving Accuracies of Individual Models:**
+   - We aim to use more advanced architectures and bigger input sizes and sequence length for training. As of now, the models have been trained on smaller frame size(100- 150 pixels) and sequence lenght varying from 10 - 30. Larger images helps to capture more fine details in the frames and longer sequnces helps to capture more spatio - temporal data.
+
+- **Expanding Dataset:**
+  - With the limited time constraint for the development of the project , we had to settle down for open source datasets, but these tend to be of lower quality than SOTA deepfakes that are posed to create trouble. We aim to create a custom dataset on our own which covers broader types of deepfakes for improving generalizability.
+  
