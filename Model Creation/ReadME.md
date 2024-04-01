@@ -72,7 +72,7 @@ While employing various architectures is beneficial, training on a diverse datas
 
 
 <!-- Pretrained Models and Code Links -->
-The trained models are available in the [Pretrained Models](https://drive.google.com/drive/folders/1o4lNbL9odOtQoXiELppH3z4IUuAV30fn?usp=sharing) directory. The code for training and testing can be found [here](https://github.com/teamStarks18/DeepfakeDetection/blob/main/Model%20Creation/train.ipynb). Additionally, the code for inference is available [here](https://github.com/teamStarks18/DeepfakeDetection/blob/main/Model%20Creation/inference.py).
+The trained models are available in the [Pretrained Models](https://drive.google.com/drive/folders/1oimtLfPbyqnzaB5WvLmoYXye16AvElTM?usp=sharing). The code for training and testing can be found [here](https://github.com/teamStarks18/DeepfakeDetection/blob/main/Model%20Creation/train.ipynb). Additionally, the code for inference is available [here](https://github.com/teamStarks18/DeepfakeDetection/blob/main/Model%20Creation/inference.py).
 
 <!-- Training Section -->
 ## Training
