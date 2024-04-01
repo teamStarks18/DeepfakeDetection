@@ -100,8 +100,6 @@ The accuracies obtained were:
 
 ## Training Validation Curves And Confusion Matrix
 
-## Training Validation Curves And Confusion Matrix
-
 ### DenseNet121:
 <div style="display: flex; justify-content: center;">
     <img src="https://github.com/teamStarks18/DeepfakeDetection/assets/161623545/e60b588f-c3bd-46b5-89e7-02e1f8cc89fa" alt="Accuracy" style="width: 30%; margin: 0 5px;">
@@ -151,6 +149,23 @@ The accuracies obtained were:
     <img src="https://github.com/teamStarks18/DeepfakeDetection/assets/161623545/e296bbed-7aaf-4149-84eb-e1cd7db0d57e" alt="Confusion Matrix" style="width: 30%; margin: 0 5px;">
 </div>
 
+
+
+
+## Aggregate Model
+
+The aggregator's role is to combine the individual probabilities from all detectors by assigning appropriate weights to each, resulting in a single aggregated probability.
+
+To achieve this, a classical neural network architecture with fully connected layers was developed. This neural network was trained using the historical performance data of all models on the custom datasets they were trained on. By training on this data, the model learns to assign importance to models that perform well relative to others. This approach facilitates the creation of an effective aggregator that optimally combines the outputs of individual detectors, ultimately improving the overall detection performance.
+
+## Aggregator performance
+
+![image](https://github.com/teamStarks18/DeepfakeDetection/assets/161623545/c3720bae-2ff0-414e-98cd-ef52055933ad)
+![image](https://github.com/teamStarks18/DeepfakeDetection/assets/161623545/b7a7ee66-c686-49bd-8ec6-e5f94a894de8)
+![image](https://github.com/teamStarks18/DeepfakeDetection/assets/161623545/6eccceae-da5c-482e-8075-f161ee40a671)
+
+
+    
 
 
 
