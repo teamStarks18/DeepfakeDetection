@@ -8,7 +8,6 @@
 - BackEnd -  FastAPI, Python
 
 
-
 ## Deployment
 
 To deploy this project run
@@ -17,6 +16,9 @@ To deploy this project run
 ```bash
   git clone https://github.com/teamStarks18/DeepfakeDetection
 ```
+
+## FrontEnd
+The frontend part has been hosted [here](https://github.com/teamStarks18/project-repo)
 
 ### Setting Backend
 
