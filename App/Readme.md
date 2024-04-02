@@ -35,9 +35,8 @@ pip install torch torchvision torchaudio --index-url https://download.pytorch.or
 # Install mediapipe and other packages
 pip install mediapipe opencv-python numpy pandas matplotlib scikit-learn seaborn
 ```
-- Download all the weights inside the [link](https://drive.google.com/drive/folders/1vlEqfVGyY9OehNsLkgRLReviaG3c79cU) and paste it inside directory Detector/weights.
+- Follow the Readme [here](https://github.com/teamStarks18/DeepfakeDetection/tree/main/App/detectors)
 
-- Download the file inside the [link](https://drive.google.com/file/d/1Vp1LIbY6LE8U6_apxhHibIbY2MsttY8K/view?usp=drive_link) and paste it inside root directory DeepfakeDetection.
 
 ### Setup NGRok
 - [Download ngRok](https://ngrok.com/download)
