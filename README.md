@@ -25,6 +25,13 @@ crucial to shield individuals, nations, and democratic
 processes from the escalating risks posed by deepfakes.
 
 
+## Demo
+This is the demo of website
+
+
+https://github.com/teamStarks18/DeepfakeDetection/assets/161623545/eb2feaa5-942d-4d17-8035-a95347913174
+
+
 
 
 
@@ -69,12 +76,6 @@ More about this has been discussed [here](https://github.com/teamStarks18/Deepfa
 
 ## Creating the AI model
 More about this has been discussed [here](https://github.com/teamStarks18/DeepfakeDetection/blob/main/Model%20Creation/ReadME.md)
-
-## Demo
-This is the demo of website
-
-
-https://github.com/teamStarks18/DeepfakeDetection/assets/161623545/eb2feaa5-942d-4d17-8035-a95347913174
 
 
 
