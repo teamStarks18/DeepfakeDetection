@@ -93,7 +93,7 @@ More about this has been discussed [here](https://github.com/teamStarks18/Deepfa
 - **Expanding Dataset:**
   - With the limited time constraint for the development of the project , we had to settle down for open source datasets, but these tend to be of lower quality than SOTA deepfakes that are posed to create trouble. We aim to create a custom dataset on our own which covers broader types of deepfakes for improving generalizability.
 
-##Contributors
+## Contributors
 - https://github.com/maheXh : AI dev
 - https://github.com/kishorekuttalamr : AI dev
 - https://github.com/Advaith-Sajeev : AI dev
