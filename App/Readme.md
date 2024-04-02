@@ -1,3 +1,7 @@
+
+![transition drawio](https://github.com/teamStarks18/DeepfakeDetection/assets/161623545/b362b91d-873a-481f-8f89-cc7df0479e05)
+
+
 ## Tech Stack
 
 - FrontEnd - React
