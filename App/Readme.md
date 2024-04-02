@@ -23,7 +23,17 @@ The frontend part has been hosted [here](https://github.com/teamStarks18/project
 ### Setting Backend
 
 ```bash
-  pip install -r requirements.txt
+  # Create a new virtual environment named detector_env
+conda create --name detector_env
+
+# Activate the virtual environment
+conda activate detector_env
+
+# Install PyTorch and related packages
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+
+# Install mediapipe and other packages
+pip install mediapipe opencv-python numpy pandas matplotlib scikit-learn seaborn
 ```
 - Download all the weights inside the [link](https://drive.google.com/drive/folders/1vlEqfVGyY9OehNsLkgRLReviaG3c79cU) and paste it inside directory Detector/weights.
 
