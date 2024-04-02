@@ -29,7 +29,10 @@ processes from the escalating risks posed by deepfakes.
 This is the demo of website
 
 
-https://github.com/teamStarks18/DeepfakeDetection/assets/161623545/eb2feaa5-942d-4d17-8035-a95347913174
+https://github.com/teamStarks18/DeepfakeDetection/assets/161623545/3e43abb9-f411-4810-861b-275f1f03f95e
+
+
+
 
 
 
